@@ -8,6 +8,7 @@ public class MainClass {
 		double balance;
 	   public MainClass() {
 		   balance=1000.0;
+		   //initialize the balance
 	   }
 	    public void deposit(double money){
 	        if(money>0)
