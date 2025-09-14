@@ -9,7 +9,10 @@ public class MainClass {
 	   public MainClass() {
 		   //balance=1000.0;
 		   //initialize the balance
-		   balance = 3000.0;
+
+		   //initialize the balance to new value
+		   balance = 2000.0;
+
 	   }
 	    public void deposit(double money){
 	        if(money>0)
