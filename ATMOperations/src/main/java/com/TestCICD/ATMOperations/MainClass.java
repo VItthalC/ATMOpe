@@ -28,7 +28,7 @@ public class MainClass {
 		public static void main(String[] args) {
 			MainClass m = new MainClass();
 	        Scanner sc = new Scanner(System.in);
-	        while(true){
+	        try{ while(true){
 	            System.out.println("=============Enter your choice=============");
 	            System.out.println("1.Balance check");
 	            System.out.println("2.Deposit");
@@ -51,6 +51,9 @@ public class MainClass {
 	            }
 	        }
 	    }
+		catch(Exception e){
+			System.out.println("Something went wrong");
+		}
 
 	
 
